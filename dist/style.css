@@ -1,0 +1,51 @@
+html,body {
+  height: 100%;
+}
+body {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  background-color: #0b0c3d;
+  color: #f3b712;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  margin-bottom: 30px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+input {
+  width: 175%;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  border: 1px solid #f3b712;
+  border-bottom: 2px solid #f3b712;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: #f3b712;
+  outline: none;
+}
+input::-moz-placeholder {
+  color: #f3b712;
+}
+input:-ms-input-placeholder {
+  color: #f3b712;
+}
+input::placeholder {
+  color: #e2b171;
+}
+canvas {
+  width: 200px;
+  height: 200px;
+}

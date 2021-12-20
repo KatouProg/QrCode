@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SCAN AND HELP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div>
+  <h1>SCAN AND HELP</h1>
+  <p class="description">Help me - QR Code est une application d'aide aux personnes vulnérables (personnes handicapées, maladie d'Alzheimer, personne agée, enfant...). Le but est de vous permettre de créer rapidement et GRATUITEMENT un QR Code contenant toutes les informations concernant votre proche (adresse, type de maladie...), ainsi que celles de la personne à contacter en cas de problème. Il ne vous reste plus qu'à sauvegarder le QR Code, à l'imprimer, et à l'accrocher par exemple au vetements ou sac de la personne que vous souhaitez protéger.</p>
+  <h2>Remplissez tous les champs</h2>
+  <input type="text" placeholder="Nom"/>
+  <input type="text" placeholder="Prénom"/>
+  <input type="text" placeholder="Adresse"/>
+  <input type="text" placeholder="Observations/Notes (Alzheimer, personne handicapée mentale...)"/>
+  <input type="text" placeholder="Nom de la personne à contacter"/>
+  <input type="text" placeholder="Qualité de la personne à contacter"/>
+  <input type="text" placeholder="Numéro de téléphone"/>
+  <input type="text" placeholder="Adresse email"/>
+  <canvas id="qr"></canvas>
+  <h2>Faites un clic droit sur le QR Code puis "Enregistrer l'image sous..."</h2>
+  <h3>Choisissez un emplacement puis enregistrez, imprimez le QR Code et utilisez-le à votre guise</h3>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
