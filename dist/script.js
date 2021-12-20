@@ -1,4 +1,4 @@
-const input = document.querySelectorAll("input");
+const inputs = document.querySelectorAll("input");
 const canvas = document.getElementById("qr");
 
 const createQR = v => {
@@ -11,8 +11,9 @@ const createQR = v => {
 
 };
 
-const qr = createQR(input.value);
-
-input.addEventListener("input", () => {
-  const qr = createQR(input.value);
-});
+const qr = createQR(inputs.value);
+inputs.forEach((input) => {
+  input.addEventListener("input", function() {
+    const qr = createQR(input.value);
+  });
+})
